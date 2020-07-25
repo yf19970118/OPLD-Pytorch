@@ -26,16 +26,29 @@ sh make.sh
   Make sure to put the files as the following structure:
 
   ```
-  ├─data
-  │  ├─DOTA
-  │  │  ├─dota_1024_200
-  │  │  │  ├─trainval_1024
-  │  │  │  │  │─images
-  │  │  │  │  │─DOTA_trainval_1024.json
-  │  │  │  ├─test_1024  
-  │  │  │  │  │─images
-  │  │  │  │  │─DOTA_test_1024.json
-  |
-  ├─weights
-     ├─resnet50_caffe.pth
-     ├─resnet101_caffe.pth
+├── data
+│   ├── DOTA
+│   │   ├── dota_1024_200
+│   │   │   ├── test_1024
+│   │   │   │   ├── DOTA_test_1024.json
+│   │   │   │   └── images
+│   │   │   └── trainval_1024
+│   │   │       ├── DOTA_trainval_1024.json
+│   │   │       └── images
+│   │   └── dota_1024_200_ms
+│   │       ├── test_1024
+│   │       │   ├── DOTA_test_1024_ms.json
+│   │       │   └── images
+│   │       └── trainval_1024
+│   │           ├── DOTA_trainval_1024_ms.json
+│   │           └── images
+│   └── HRSC2016
+│       ├── test
+│       │   ├── HRSC2016_test.json
+│       │   └── images
+│       └── trainval
+│           ├── HRSC2016_trainval.json
+│           └── images
+└── weights
+    ├── resnet101_caffe.pth
+    └── resnet50_caffe.pth
