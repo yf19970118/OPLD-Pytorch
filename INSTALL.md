@@ -10,8 +10,8 @@ git clone https://github.com/NVIDIA/apex.git
 cd apex
 sudo python setup.py install --cuda_ext --cpp_ext
 
-# clone Hier-R-CNN
-git clone https://github.com/soeaver/Parsing-R-CNN.git
+# clone OPLD
+git clone https://github.com/yf19970118/OPLD-Pytorch.git
 
 # install other requirements
 pip3 install -r requirements.txt
@@ -52,3 +52,4 @@ sh make.sh
 └── weights
     ├── resnet101_caffe.pth
     └── resnet50_caffe.pth
+  ```
