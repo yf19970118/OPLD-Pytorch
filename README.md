@@ -16,7 +16,7 @@ In this repository, we release the OPLD code in Pytorch.
 - pytorch1.1
 - python3.6.8
 
-Install OPLD following [INSTALL.md]().
+Install OPLD following [INSTALL.md](https://github.com/yf19970118/OPLD-Pytorch/blob/master/INSTALL.md).
 
 
 **ImageNet pretrained weight**
@@ -48,4 +48,4 @@ python tools/test_net.py --cfg ckpts/DOTA/e2e_OPLD_R-50-FPN_1x/e2e_OPLD_R-50-FPN
 
 
 ## License
-OPLD is released under the [MIT license]().
+OPLD is released under the [MIT license](https://github.com/yf19970118/OPLD-Pytorch/blob/master/LICENSE).
