@@ -27,9 +27,9 @@ Install OPLD following [INSTALL.md](https://github.com/yf19970118/OPLD-Pytorch/b
 
 ### on DOTA
 
-|        Model       |  LR  |  mAP50 | DOWNLOAD |
-|--------------------|:----:|:------:| :-------:|
-| R-101-FPN_MS       |  1x  | 76.43   |[GoogleDrive](https://drive.google.com/file/d/1zrOsmqn7FEGghDs1THZddMIwbwlJkWZv/view?usp=sharing)|
+|        Model       |  LR  |  mAP50 |  FPS | DOWNLOAD |
+|--------------------|:----:|:------:|:-------:| :-------:|
+| R-101-FPN_MS       |  1x  | 76.43  | 5.2 |[GoogleDrive](https://drive.google.com/file/d/1zrOsmqn7FEGghDs1THZddMIwbwlJkWZv/view?usp=sharing)|
 
 ## Training
 
