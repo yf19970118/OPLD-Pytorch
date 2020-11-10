@@ -51,6 +51,8 @@ python tools/test_net.py --cfg ckpts/DOTA/e2e_OPLD_R-50-FPN_1x/e2e_OPLD_R-50-FPN
 python tools/test_net.py --cfg ckpts/DOTA/e2e_OPLD_R-50-FPN_1x/e2e_OPLD_R-50-FPN_1x.yaml --gpu_id 0
 ```
 
+## Citation
+
 If you use [DOTA](https://captain-whu.github.io/DOTA/) dataset and find this repo useful, please consider cite.
 
 ```
@@ -70,5 +72,7 @@ OPLD is released under the [MIT license](https://github.com/yf19970118/OPLD-Pyto
 ## Thanks to the Third Party Libs
 
 [Pytorch](https://pytorch.org/)
+
+[Detectron](https://github.com/facebookresearch/Detectron/tree/master/detectron)
 
 [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit)

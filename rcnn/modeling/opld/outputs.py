@@ -36,12 +36,10 @@ class OPLDOutput(nn.Module):
             groups=self.num_points)
 
     def forward(self, x, x_so):
-        # predicted heatmap with fused features
         x2 = torch.cat(x_so, dim=1)
         x2 = self.deconv_1(x2)
         x2 = F.relu(self.norm1(x2), inplace=True)
         heatmap = self.deconv_2(x2)
-        # predicted heatmap with original features (applicable during training)
         if self.training:
             x1 = x
             x1 = self.deconv_1(x1)

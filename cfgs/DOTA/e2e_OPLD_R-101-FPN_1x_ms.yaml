@@ -10,9 +10,12 @@ MODEL:
 BACKBONE:
   CONV_BODY: "resnet"
   RESNET:  # caffe style
-    LAYERS: (3, 4, 6, 3)
+    LAYERS: (3, 4, 23, 3)
 RPN:
   ANCHOR_STRIDE: (4, 8, 16, 32, 64)
+  ANCHOR_SIZES: (32, 64, 128, 256, 512)
+  ASPECT_RATIOS: (0.5, 1.0, 2.0)
+  BATCH_SIZE_PER_IMAGE: 256
   NMS_THRESH: 0.8
 FAST_RCNN:
   ROI_XFORM_RESOLUTION: (7, 7)
@@ -41,7 +44,7 @@ SOLVER:
   MAX_ITER: 27640
   STEPS: [20730, 25340]
 TRAIN:
-  WEIGHTS: weights/pytorch-model/caffe-model/resnet50_caffe.pth
+  WEIGHTS: weights/pytorch-model/caffe-model/resnet101_caffe.pth
   DATASETS: ('dota-v1-1024_trainval_ms', )
   SCALES: (800, 912, 1024)
   MAX_SIZE: 1333

@@ -593,7 +593,7 @@ __C.RPN.PRE_NMS_TOP_N_TEST = 6000
 # Number of top scoring RPN proposals to keep after applying NMS
 __C.RPN.POST_NMS_TOP_N_TRAIN = 2000
 
-__C.RPN.POST_NMS_TOP_N_TEST = 1000
+__C.RPN.POST_NMS_TOP_N_TEST = 2000
 
 # NMS threshold used on RPN proposals
 __C.RPN.NMS_THRESH = 0.7

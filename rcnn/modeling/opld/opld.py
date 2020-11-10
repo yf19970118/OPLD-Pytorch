@@ -37,7 +37,6 @@ class OPLD(torch.nn.Module):
         grid_logits = self.Output(x, x_so)
 
         loss_grid = self.loss_evaluator(grid_logits)
-
         return x, all_proposals, dict(loss_grid=loss_grid)
 
     def _forward_test_grid(self, features, proposals):
