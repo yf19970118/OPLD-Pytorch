@@ -29,7 +29,7 @@ Install OPLD following [INSTALL.md](https://github.com/yf19970118/OPLD-Pytorch/b
 
 |        Model       |  LR  |  mAP50 |  FPS | DOWNLOAD |
 |--------------------|:----:|:------:|:-------:| :-------:|
-| R-101-FPN_MS       |  1x  | 76.43  | 5.2 |[GoogleDrive](https://drive.google.com/file/d/1zrOsmqn7FEGghDs1THZddMIwbwlJkWZv/view?usp=sharing)|
+| R-101-FPN_MS       |  1x  | 76.43  | 5.2 |[GoogleDrive](https://drive.google.com/file/d/1JB08rfJ9sAAxucjurG0dScDduuQLzmTS/view?usp=sharing), [BaiduNetDisk](https://pan.baidu.com/s/136PdOqx4YFpSq2WpvDo2Jw) (4pt9)|
 
 ## Training
 
@@ -62,6 +62,12 @@ If you use [DOTA](https://captain-whu.github.io/DOTA/) dataset and find this rep
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   pages={3974--3983},
   year={2018}
+}
+@ARTICLE{9252176,  
+  title={Learning Point-guided Localization for Detection in Remote Sensing Images},  
+  author={Q. {Song} and F. {Yang} and L. {Yang} and C. {Liu} and M. {Hu} and L. {Xia}},  
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},   
+  year={2020},
 }
 ```
 
