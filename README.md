@@ -1,5 +1,11 @@
 # OPLD:Learning Point-guided Localization for Detection in Remote Sensing Images
 
+What to know before use: 
+1、I have tested this project, which can be **compiled** and **tested** correctly. The problems in the above process have nothing to do with my code. 
+2、The evaluate result is coco. If you use DOTA, you need to convert the format yourself.
+3、If training is unusual, pay attention to the relationship between your batch size and learning rate.
+4、Many users can use this code normally. I have changed my profession and no longer maintain this project. Please do not open strange issue again.
+
 Official implementation of **Learning Point-guided Localization for Detection in Remote Sensing Images**
 
 In this repository, we release the OPLD code in Pytorch.
